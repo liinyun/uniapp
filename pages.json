@@ -1,0 +1,125 @@
+{
+	"pages": [ 
+	{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarTitleText": "登录",
+			"navigationBarBackgroundColor": "#fddced"
+		}
+	},
+		{
+			"path": "pages/body/body",
+			"style": {
+				"navigationBarTitleText": "尺寸",
+				"navigationBarBackgroundColor": "#fddced"
+			}
+		},
+		{
+			"path" : "pages/detail/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "身材",
+				"navigationBarBackgroundColor": "#fddced"
+			}
+		},
+		{
+			"path" : "pages/recommend/recommend",
+			"style" : 
+			{
+				"navigationBarTitleText" : "推荐",
+					"navigationBarBackgroundColor": "#fddced"
+			}
+		},
+		{
+			"path" : "pages/login/register",
+			"style" : 
+			{
+				"navigationBarTitleText" : "注册",
+					"navigationBarBackgroundColor": "#fddced"
+			}
+		},
+		{
+			"path" : "pages/login/password",
+			"style" : 
+			{
+				"navigationBarTitleText" : "找回密码",
+					"navigationBarBackgroundColor": "#fddced"
+			}
+		},
+		{
+			"path" : "pages/myinfo/myinfo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人中心",
+					"navigationBarBackgroundColor": "#fddced"
+			}
+		},
+		{
+			"path" : "pages/moni/moni",
+			"style" : 
+			{
+				"navigationBarTitleText" : "模拟试衣",
+					"navigationBarBackgroundColor": "#fddced"
+			}
+		},
+	{
+		"path" : "pages/myinfo/changgepwd",
+		"style" : 
+		{
+			"navigationBarTitleText" : "修改密码",
+				"navigationBarBackgroundColor": "#fddced"
+		}
+	},
+	{
+		"path" : "pages/recommend/BMI",
+		"style" : 
+		{
+			"navigationBarTitleText" : "我的变化",
+				"navigationBarBackgroundColor": "#fddced"
+		}
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "欢迎使用！",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "black",
+		"list": [
+			{
+				"text": "测量",
+				"pagePath": "pages/body/body",
+			    "iconPath": "static/hw.png",
+				"selectedIconPath": "static/hw(1).png"
+			},
+			{
+				"text": "推荐",
+				"pagePath": "pages/recommend/recommend",
+				"iconPath": "static/star.png",
+				"selectedIconPath": "static/star (1).png"
+			},
+			{
+			"text": "身材",
+				"pagePath": "pages/detail/detail",
+				"iconPath": "static/X.png",
+				"selectedIconPath": "static/X(1).png"
+			},
+			{
+			"text": "模拟试衣",
+				"pagePath": "pages/moni/moni",
+				"iconPath": "static/try.png",
+				"selectedIconPath": "static/try (1).png"
+			},
+			{
+				"text": "个人中心",
+				"pagePath": "pages/myinfo/myinfo",
+				"iconPath": "static/info.png",
+				"selectedIconPath": "static/info(1).png"
+			}
+		]
+	}
+}
